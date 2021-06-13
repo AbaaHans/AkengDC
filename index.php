@@ -9,9 +9,9 @@
         <div class="navbar">
             <a href="/index.php"><img src="./image/mail.png" id="start" class="logo" alt="" srcset=""></a>
             <nav>
-                <button class="hamburger" id="hamburger">
+                <!-- <button class="hamburger" id="hamburger">
                     <i class="fas fa-bars"></i>
-                </button>
+                </button> -->
                 <ul>
                     <li><a href="#accueil">ACCUEIL</a></li>
                     <li><a href="#about" class="btn">QUI SOMMES-NOUS ?</a></li>
