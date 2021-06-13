@@ -2,17 +2,17 @@
 include_once('./layout/header.php');
 ?>
 
-
-<div class="container">
+<a href="#start" class="scroll top"><i class="fas fa-arrow-circle-up"></i></a>
+<a href="#finish" class="scroll bottom"><i class="fas fa-arrow-circle-down"></i></a>
+<div class="header">
     <div class="navbar">
-        <a href="/index.php"><img src="./image/mail.png" class="logo" alt="" srcset=""></a>
+        <a href="/index.php"><img src="./image/mail.png" id="start" class="logo" alt="" srcset=""></a>
         <nav>
             <ul>
-                <li><a href="/index.php">Accueil</a></li>
-                <li><a href="/about.php">A propos</a></li>
-                <li><a href="/service.php">Nos Services</a></li>
-                <li><a href="">Team</a></li>
-                <li><a href="/contact.php" target="_blank">Contact</a></li>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#about" class="btn">QUI SOMMES-NOUS ?</a></li>
+                <li><a href="#service" class="btn2">Nos Services</a></li>
+                <li><a href="/contact.php" class="btn3" target="_blank">Contact</a></li>
             </ul>
         </nav>
     </div>
@@ -20,9 +20,7 @@ include_once('./layout/header.php');
         <div class="col">
             <h1>Akeng Digital</h1>
             <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis aut suscipit, animi distinctio
-                officia pariatur magni itaque cupiditate nisi temporibus autem. Dicta, est iste temporibus
-                distinctio doloremque voluptates incidunt. Accusantium.
+                Choisissez la flexibilité avec notre agence web avec des meilleurs expert du Digital
             </p>
             <a href="/contact.php" target="_blank" rel="noopener noreferrer">
                 <button type="button">Contactez-nous</button></a>
@@ -30,15 +28,17 @@ include_once('./layout/header.php');
         <div class="col">
             <div class="card card1">
                 <h5>About Us</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo natus aliquid nemo laudantium ipsa?
-                    Reiciendis ea asperiores optio tempore! Molestias laborum animi vel rerum veniam voluptatibus
-                    pariatur voluptate nulla autem.</p>
+                <p>Agence web expert dans le digital depuis plusieurs année. Notre agence web vous propose de financer
+                    votre site internet en plusieurs mensualités sans frais supplémentaire.
+                    Résultat, vous financez votre site web facilement sans avoir à engager votre trésorerie.
+                </p>
             </div>
             <div class="card card2">
                 <h5>Service</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo natus aliquid nemo laudantium ipsa?
-                    Reiciendis ea asperiores optio tempore! Molestias laborum animi vel rerum veniam voluptatibus
-                    pariatur voluptate nulla autem.</p>
+                <p>Aucune contrainte liée à un cadre prédéfini, nous adaptons votre site aux besoins de vos cibles et
+                    répondons à vos exigences techniques : intégration CRM, réservation, paiement en ligne.
+                    Tout est mis en place dans la création de votre site web pour vous aider à atteindre vos objectifs!
+                </p>
             </div>
             <div class="card card3">
                 <h5>Team</h5>
@@ -49,8 +49,10 @@ include_once('./layout/header.php');
         </div>
     </div>
 </div>
-<?php include_once './about.php' ?>
-<div class="service">
+<div id="about">
+    <?php include_once './about.php' ?>
+</div>
+<div class="service" id="service">
     <h2>Nos services</h2>
     <div class="Steps">
         <div class="box">
@@ -82,7 +84,7 @@ include_once('./layout/header.php');
 
         <div class="team-c">
             <div class="block">
-                <img src="/image/man.png" alt="" srcset="">
+                <img src="/image/man.png" width="200px" height="250px" alt="" srcset="">
                 <div class="icon">
                     <ul>
                         <a href="">
@@ -105,7 +107,7 @@ include_once('./layout/header.php');
                 </div>
             </div>
             <div class="block">
-                <img src="/image/man.png" alt="" srcset="">
+                <img src="/image/man.png" width="200px" height="250px" alt="" srcset="">
                 <div class="icon">
                     <ul>
                         <a href="">
@@ -128,7 +130,7 @@ include_once('./layout/header.php');
                 </div>
             </div>
             <div class="block">
-                <img src="/image/man.png" alt="" srcset="">
+                <img src="/image/Math.jpg" width="200px" height="250px" alt="" srcset="">
                 <div class="icon">
                     <ul>
                         <a href="">
@@ -151,7 +153,7 @@ include_once('./layout/header.php');
                 </div>
             </div>
             <div class="block">
-                <img src="/image/man.png" alt="" srcset="">
+                <img src="/image/hicham.jpeg" width="200px" height="250px" alt="" srcset="">
                 <div class="icon">
                     <ul>
                         <a href="">
@@ -166,7 +168,7 @@ include_once('./layout/header.php');
                     </ul>
                 </div>
                 <div class="info">
-                    <h3>HISHAM</h3>
+                    <h3>HICHAM CHATIR</h3>
                     <h4>Infograh</h4>
                     <p>Infograh experimenté
                         en photoshop, XD, ADOBE, Canvas...
@@ -186,7 +188,8 @@ include_once('./layout/header.php');
 
                 <img src="./image/socaf-maroc.png" alt="" srcset="">
 
-                <img src="./image/wester-union.png" alt="" srcset="">
+                <img src="./image/logo-vacar.png" alt="" srcset="">
+                <img src="./image/logo-voyageassur.png" alt="" srcset="">
             </div>
         </marquee>
     </div>

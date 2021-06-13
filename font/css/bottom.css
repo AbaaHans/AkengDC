@@ -20,6 +20,7 @@
   height: 3px;
   width: 150px;
   margin: 10px auto;
+  opacity: 0.2;
 }
 
 .Steps {
@@ -119,7 +120,7 @@
   margin: 75px 0;
   width: 100%;
   min-height: 80vh;
-  background: #87cefa;
+  background: #98fb98;
   padding: 60px;
 }
 
@@ -163,11 +164,11 @@
 
 .icon li {
   display: inline-block;
-  margin: 20px;
+  margin: 10px;
 }
 .icon i {
   padding: 10px;
-  background: #87cefa;
+  background: #90ee90;
   text-align: center;
   border-radius: 50%;
 }
@@ -176,7 +177,7 @@
 }
 
 .team-c img {
-  border-radius: 50%;
+  border-radius: 10%;
   padding: 10px;
   background-color: #fff;
 }
