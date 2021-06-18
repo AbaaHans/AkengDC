@@ -111,7 +111,7 @@
                     </div>
                 </div>
                 <div class="block">
-                    <img src="/image/man.png" width="200px" height="250px" alt="" srcset="">
+                    <img src="/image/ayman.jpg" width="200px" height="250px" alt="" srcset="">
                     <div class="icon">
                         <ul>
                             <a href="">

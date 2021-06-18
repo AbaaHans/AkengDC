@@ -359,7 +359,7 @@ button:hover {
   text-align: center;
   line-height: 30px;
   color: #fff;
-  font-size: 15px;
+  font-size: 18px;
   text-decoration: none;
   z-index: 1000;
 }
@@ -503,21 +503,6 @@ footer h3 {
   a {
     padding: 10px;
   }
-  .header {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url(/image/home.jpg);
-    padding-bottom: 0;
-  }
-  .col {
-    width: 50px;
-  }
-  .col .card {
-    display: none;
-  }
-  .scroll {
-    line-height: 10px;
-  }
-}
 
 @media screen and (max-width: 871px) {
   .col .card {
