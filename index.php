@@ -7,7 +7,7 @@
     <a href="#finish" class="scroll bottom"><i class="fas fa-arrow-circle-down"></i></a>
     <div class="header">
         <div class="navbar">
-            <a href="/index.php"><img src="./image/mail.png" id="start" class="logo" alt="" srcset=""></a>
+            <a href="/index.php"><img src="./image/logo.png" id="start" class="logo" alt="" srcset=""></a>
             <nav>
                 <!-- <button class="hamburger" id="hamburger">
                     <i class="fas fa-bars"></i>

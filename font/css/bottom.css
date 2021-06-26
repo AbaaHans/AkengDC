@@ -5,7 +5,7 @@
   align-items: center;
   min-height: 90vh;
   flex-direction: column;
-  background: linear-gradient(#90ee90, #90ee90, 50%, #fff, 50%, #fff 100%);
+  background: linear-gradient(#954d9e, #df3c96, #f69385, #f6c49c);
 }
 .service h2 {
   font-weight: bold;
@@ -49,7 +49,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: #98fb98;
+  background: linear-gradient(#954d9e, #df3c96, #f69385, #f6c49c);
   transform: scaleY(0);
   transform-origin: bottom;
   transition: transform 0.8s;
@@ -120,7 +120,7 @@
   margin: 75px 0;
   width: 100%;
   min-height: 80vh;
-  background: #98fb98;
+  background: linear-gradient(#f69385, #f6c49c, #954d9e, #df3c96);
   padding: 60px;
 }
 
@@ -168,7 +168,7 @@
 }
 .icon i {
   padding: 10px;
-  background: #90ee90;
+  background: #f69385, #f6c49c;
   text-align: center;
   border-radius: 50%;
 }

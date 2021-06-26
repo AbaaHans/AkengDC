@@ -2,7 +2,7 @@
       <div class="wrapper">
           <div class="footer-content">
               <div class="colp1">
-                  <a href="/index.php"><img src="./image/mail.png" class="logo" alt="" srcset=""></a>
+                  <a href="/index.php"><img src="./image/logo.png" class="logo" alt="" srcset=""></a>
                   <div class="icon">
                       <ul>
                           <a href="">
