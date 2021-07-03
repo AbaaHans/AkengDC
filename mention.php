@@ -4,6 +4,11 @@ include_once('./layout/header.php');
 ?>
 
 <style>
+section {
+    background: linear-gradient(#954d9e, #df3c96, #f69385, #f6c49c);
+    ;
+}
+
 .call-to-action {
     margin: 50px;
 }
@@ -14,12 +19,12 @@ span {
 }
 </style>
 
-<section class="call-to-action background ">
+<section class="call-to-action   container-fluid">
     <div class="center">
         <h1>Mentions légales </h1>
         <br>
         <h2>Editeur et hébergeur</h2>
-        <p>AGENCE WEB DIGITAL - 43, rue Moussa Bnou Noussair, Casablanca 20100
+        <p>AGENCE WEB DIGITAL - 162 rue El Bakri place de la victoir,Maroc Casablanca 20100
             Entreprise régie par le Code des assurances - régi par la loi n° 17-99 portant Code des assurances sous
             l’agrément n° C267374552015780 du 02 avril 2015.
             Service Réclamations : créer une adresse mail spécifique ( ex : servicereclamations@socaf-france.com)La
@@ -68,10 +73,10 @@ span {
     </div>
     <p>
     <h5>Adresse : </h5>
-    <h5>SOCIÉTÉ DE CONSEIL EN ASSURANCE</h5>
-    43, rue Moussa Bnou Noussair, Casablanca 20100</p>
-    <p> <SPan>Fixe :</SPan> 05 20 77 79 91</p>
-    <p><span>GSM :</span> 06 59 55 00 13</p>
+    <h5>AGENCE WEB DIGITAL</h5>
+    162 rue El Bakri place de la victoir,Maroc Casablanca 20100</p>
+    <p> <SPan>Fixe :</SPan> 06 91 89 72 74</p>
+
 </section>
 
 
